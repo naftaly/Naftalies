@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Naftalies_Example' do
+  pod 'Naftalies', :path => '../'
+
+  target 'Naftalies_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
